@@ -1,0 +1,41 @@
+header {
+    width: 100%;
+    height: 5vw; /*vw= dimuni o tamanho proporcionalmente*/
+    background-color: #000;
+    position: fixed;
+}
+
+.container {
+    margin: auto;
+    width: 97%;
+    height: 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 8vw;
+    height: 5vw;
+}
+
+.logo_img {
+    margin-top: 1vw;
+    width: 3vw; 
+   
+}
+
+.menu {
+    padding-top: 2vw;
+}
+
+.menu a {
+    color: #fff;
+    font-size: 1.2vw;
+    padding-right: 1vw; /* espaçamento entre os items(elementos) do menu */
+    transition-duration: 300ms;
+}
+
+.menu a:hover, .menu a:active, .menu a:focus {
+    color: rgb(218, 57, 156);
+    transition-duration: 300ms;
+}
